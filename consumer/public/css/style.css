@@ -1,0 +1,94 @@
+#logBody{
+    background-image: url('/images/game.jpg');
+
+}
+.main-section {
+	margin: 30%;
+	margin-top: 100px;
+    margin-bottom: 50px;
+	padding: 40;
+}
+.modal-content {
+	background-color: #868d87;
+	opacity: .7;
+	padding: 0 180px;
+	border-radius: 10px;
+}
+.user-img img {
+	height: 120px;
+	width: 120px;
+}
+.user-img {
+	margin-top: -60px;
+	margin-bottom: 45px;
+    margin-left: -175px;
+}
+
+.form-group1 {
+	margin-bottom: 50px;
+}
+.form-group1 input {
+	height: 42px;
+	width: fit-content;
+	border-radius: 5px;
+	border: 0;
+	font-size: 18px;
+    text-align: left;
+	letter-spacing: 2px;
+	padding-left: 150px;
+}
+
+
+
+
+.form-group {
+	margin-bottom: 25px;
+}
+.form-group input {
+	height: 42px;
+	width: 80%;
+	border-radius: 5px;
+	border: 0;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-left: 150px;
+}
+
+
+
+
+.form-input button {
+	width: 40%;
+	margin: 5px 0 25px;
+}
+.btn-success {
+	background-color: #163f26;
+	font-size: 19px;
+    color: rgb(231, 177, 188);
+	border-radius: 5px;
+	padding: 7px 14px;
+	border: 1px solid #daf1ff;
+}
+.btn-success:hover {
+	background-color: #13445e;
+	border: 1px solid #daf1ff;
+}
+.forgot {
+	padding: 5px 0 25px;
+}
+.forgot a {
+	color: #da1212;
+}
+/*adminpage*/
+#cont-ad{
+  border: black;
+  border-radius: 5px;
+  align-items: center;
+  background-color: brown;
+}
+
+#row-ad{
+  border-width: medium;
+  border-style: double;
+  border-color: "black";
+}

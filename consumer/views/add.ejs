@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Loja de Games</title>
+</head>
+<body>
+  <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%" id="bar">
+   <h3 class="w3-bar-item" id="porra" >Games inc Menu</h3>
+    <a href="/add" class="w3-bar-item w3-button">Add Games</a>
+    <a href="/search" class="w3-bar-item w3-button">Search</a>
+    <a href="#" class="w3-bar-item w3-button">Logoff</a>
+  </div>
+  <div style="margin-left:25%">
+   <div class="container p-5 my-3 bg-dark text-white text-center font-weight-bold" id="merda">Adding Games</div>
+   <div class="card text-center" >
+      <div class="card-header p-5 my-3 bg-dark text-white text-center font-weight-bold"  >
+         Adding games to invitory
+       </div>
+       <div class="d-flex justify-content-center">
+         <form action="/adding" method="POST">
+            <div class="form-group">
+              <label for="REF">Reference: </label>
+              <input type="number" class="form-control" placeholder="Enter Reference" name="Ref">
+            </div>
+            <div class="form-group">
+              <label for="Title">Title: </label>
+              <input type="text" class="form-control" placeholder="Enter Title" name="Title">
+            </div>
+           
+            <div class="form-group">
+               <label for="Category">Category: </label>
+               <input type="text" class="form-control" placeholder="Enter Category" name="Category">
+             </div>
+             
+             <div class="form-group">
+               <label for="Year">Year: </label>
+               <input type="number" class="form-control" placeholder="Enter the Year" name="Year">
+             </div>
+             <div class="form-group">
+               <label for="Price">Price: </label>
+               <input type="number" class="form-control" placeholder="Price" name="Price" step="any">
+             </div>
+
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form> 
+      </div>
+  </div>
+</body>
+<footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</footer>
+</html>

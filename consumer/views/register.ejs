@@ -1,0 +1,49 @@
+<%- include ('partials/header.ejs') %>
+<br>
+
+<body id="logBody">
+
+    <div>
+        <div id="headerwrap">
+            <div class="container">
+              <div class="row">
+                <div class="modal-dialog text-center">
+                    <div class="col-sm-9 main-section">
+                      <div class="modal-content">
+                
+                        <div class="col-12 user-img">
+                          <img src="/images/game1.png">
+                        </div>
+                
+                        <div class="col-12 form-input">
+                          <form method="POST" action="/login">
+                            <div class="form-group">
+                              <input type="email" class="form-control" placeholder="Enter Email" name="email">
+                            </div>
+                            <div class="form-group">
+                              <input type="password" class="form-control" placeholder="Enter Password" name="password">
+                            </div>
+                            <button type="submit" class="btn btn-success">Login</button>
+                          </form>
+                        </div>
+                
+                        <div class="col-12 forgot">
+                          <a href="#">Forgot Password?</a>
+                        </div>
+                
+                      </div>
+                    </div>
+                  </div>
+                
+                
+              </div>
+            </div>
+            <!-- /container -->
+          </div>
+        
+    </div>
+    <br>
+    
+</body>
+<%- include ('partials/footer.ejs') %>
+
